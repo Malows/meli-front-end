@@ -99,4 +99,3 @@ declare type ProductItem = {
     description: string,
     sold_quantity: number,
 }
-

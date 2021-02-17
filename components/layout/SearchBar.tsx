@@ -1,11 +1,22 @@
 import { useState, ChangeEvent } from 'react'
 import Image from 'next/image'
 
+import { fetchQuery } from '../../utils/api'
+import { useSearchState } from '../../context'
+
 export default function SearchBar (): JSX.Element {
     const [value, setValue] = useState('')
 
+    const [, setState] = useSearchState()
+
     function handleChange ({ target: { value } }: ChangeEvent<HTMLInputElement>) {
         setValue(value)
+    }
+
+    function handleClick () {
+        fetchQuery(value).then(({ categories, items }) => {
+            setState({ categories, items })
+        })
     }
 
     return (
@@ -14,11 +25,11 @@ export default function SearchBar (): JSX.Element {
                 className="search-bar__input"
                 type="text"
                 placeholder="Nunca dejes de buscar"
-                {...value}
+                value={value}
                 onChange={handleChange}
             />
 
-            <button className="search-bar__button">
+            <button className="search-bar__button" onClick={handleClick}>
                 <Image src="/ic_Search.png" width={20} height={20} layout="intrinsic" />
             </button>
 
