@@ -1,11 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-type ProductItemProps = {
+type SearchItemProps = {
     item: HydratedSearchItem
 }
 
-export default function ProductItem ({ item }: ProductItemProps): JSX.Element {
+export default function SearchItem ({ item }: SearchItemProps): JSX.Element {
     const shipping = item.free_shipping
         ? (
             <div className="product-item__shipping">
