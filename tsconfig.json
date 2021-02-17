@@ -66,6 +66,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
+    "context/index.js",
   ],
   "exclude": [
     "node_modules"
