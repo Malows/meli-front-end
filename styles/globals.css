@@ -1,6 +1,7 @@
 :root {
   --primary-color: #FFE600;
   --dark-color: #333;
+  --grey-color: #666;
   --fade-color: #999;
   --light-color: #EEE;
 
@@ -24,4 +25,8 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.rounded {
+  border-radius: var(--border-radius);
 }
