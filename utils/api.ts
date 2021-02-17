@@ -1,54 +1,37 @@
-import fetch from 'node-fetch'
-
-const SEARCH_URL = 'https://api.mercadolibre.com/sites/MLA/search'
-
-const SEARCH_LIMIT = 4
-
-const ITEMS_URL = 'https://api.mercadolibre.com/items'
+import { search, getCategories, getItem, getItemDescription } from './services'
 
 /**
  *
- * @param {string} query
+ * @param item
  *
- * @return {Promise<SearchResponse>}
+ * @returns {Price}
  */
-export async function search (query: string) : Promise<SearchResponse> {
-    const url = new URL(SEARCH_URL)
+export function priceFormatter (item: SearchResultItem|ItemResponse): Price {
+    const segments = item.price
+        .toFixed(2)
+        .split('.')
+        .map(Number)
 
-    url.searchParams.append('q', query)
-    url.searchParams.append('limit', SEARCH_LIMIT.toString())
-
-    const res = await fetch(url.toString())
-
-    return res.json()
+    return {
+        currency: '$',
+        amount: segments[0],
+        decimals: segments[1],
+    }
 }
 
 /**
  *
- * @param {string} id
- *
- * @returns {Promise<ItemResponse>}
+ * @param item
  */
-export async function getItem (id: string): Promise<ItemResponse> {
-    const url = new URL(`${ITEMS_URL}/${id}`)
-
-    const res = await fetch(url)
-
-    return res.json()
-}
-
-/**
- *
- * @param {string} id
- *
- * @returns {Promise<ItemDescriptionResponse>}
- */
-export async function getItemDescription (id: string): Promise<ItemDescriptionResponse> {
-    const url = new URL(`${ITEMS_URL}/${id}/description`)
-
-    const res = await fetch(url)
-
-    return res.json()
+export function hydrateSearch (item: SearchResultItem): HydratedSearchItem {
+    return {
+        id: item.id,
+        title: item.title,
+        condition: item.condition,
+        free_shipping: item.free_shipping,
+        price: priceFormatter(item),
+        picture: item.thumbnail.replace('http:', 'https:')
+    }
 }
 
 /**
@@ -57,10 +40,18 @@ export async function getItemDescription (id: string): Promise<ItemDescriptionRe
  *
  * @returns {Promise<any>}
  */
-export async function fetchQuery (query: string): Promise<any> {
+export async function fetchQuery (query: string): Promise<HydratedSearchResponse> {
     const response = await search(query)
 
-    return response
+    const categories = response.results.length === 0
+        ? []
+        : await getCategories(response.results[0].category_id)
+
+    return {
+        author: { name: '', lastname: '' }, // TODO
+        categories,
+        items: response.results.map(hydrateSearch)
+    }
 }
 
 /**
@@ -69,27 +60,22 @@ export async function fetchQuery (query: string): Promise<any> {
  *
  * @returns {Promise<ProductItem>}
  */
-export async function fetchItem (id: string): Promise<ProductItem> {
+export async function fetchItem (id: string): Promise<{ author: Author, item: ProductItem }> {
     const item = await getItem(id)
 
     const { plain_text: description } = await getItemDescription(id)
 
-    const segments = item.price
-        .toFixed(2)
-        .split('.')
-        .map(Number)
-
     return {
-        id: item.id,
-        title: item.title,
-        price: {
-            currency: '$',
-            amount: segments[0],
-            decimals: segments[1],
-        },
-        description,
-        picture: item.secure_thumbnail,
-        free_shipping: item.shipping.free_shipping,
-        condition: item.condition,
+        author: { name: '', lastname: '' }, // TODO
+        item: {
+            id: item.id,
+            title: item.title,
+            price: priceFormatter(item),
+            description,
+            picture: item.secure_thumbnail,
+            free_shipping: item.shipping.free_shipping,
+            condition: item.condition,
+            sold_quantity: item.sold_quantity,
+        }
     }
 }

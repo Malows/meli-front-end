@@ -17,10 +17,11 @@ declare type SearchResultItem = {
     id: string,
     title: string,
     price: number,
-    currency_id: string,
+    category_id: string,
     condition: string,
-    thumbnail: string,
+    currency_id: string,
     free_shipping: boolean,
+    thumbnail: string,
 }
 
 declare type SearchResponse = {
@@ -51,18 +52,43 @@ declare type ItemDescriptionResponse = {
     plain_text: string,
 }
 
-
 /**
  *
- * Domain types
+ * Internal API responses types
  *
  */
+declare type Author = {
+    name: string,
+    lastname: string,
+}
+
 declare type Price = {
     currency: string,
     amount: number,
     decimals: number
 }
 
+declare type HydratedSearchItem = {
+    id: string,
+    title: string,
+    price: Price,
+    picture: string,
+    condition: string,
+    free_shipping: boolean,
+}
+
+declare type HydratedSearchResponse = {
+    author: Author,
+    categories: string[],
+    items: HydratedSearchItem[],
+}
+
+
+/**
+ *
+ * Domain types
+ *
+ */
 declare type ProductItem = {
     id: string,
     title: string,
@@ -71,5 +97,6 @@ declare type ProductItem = {
     picture: string,
     free_shipping: boolean,
     description: string,
+    sold_quantity: number,
 }
 
