@@ -14,3 +14,13 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+:root {
+  --primary-color: #FFE600;
+  --dark-color: #333;
+  --fade-color: #999;
+  --light-color: #EEE;
+
+  --border-radius: .25rem;
+}
