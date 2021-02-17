@@ -1,9 +1,21 @@
+:root {
+  --primary-color: #FFE600;
+  --dark-color: #333;
+  --grey-color: #666;
+  --fade-color: #999;
+  --light-color: #EEE;
+
+  --border-radius: .25rem;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  color: var(--dark-color);
 }
 
 a {
@@ -15,12 +27,6 @@ a {
   box-sizing: border-box;
 }
 
-
-:root {
-  --primary-color: #FFE600;
-  --dark-color: #333;
-  --fade-color: #999;
-  --light-color: #EEE;
-
-  --border-radius: .25rem;
+.rounded {
+  border-radius: var(--border-radius);
 }
