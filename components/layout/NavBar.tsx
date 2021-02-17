@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 import SearchBar from './SearchBar'
 
@@ -6,7 +7,11 @@ export default function NavBar (): JSX.Element {
     return (
         <nav>
             <div className="logo">
-                <Image src="/Logo_ML.png" layout="fixed" width={47} height={32} />
+                <Link href="/">
+                    <a>
+                        <Image src="/Logo_ML.png" layout="fixed" width={47} height={32} />
+                    </a>
+                </Link>
             </div>
 
             <div className="search" >

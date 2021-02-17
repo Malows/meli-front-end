@@ -20,8 +20,13 @@ declare type SearchResultItem = {
     category_id: string,
     condition: string,
     currency_id: string,
-    free_shipping: boolean,
+    shipping: {
+        free_shipping: boolean,
+    },
     thumbnail: string,
+    address: {
+        state_name: string,
+    },
 }
 
 declare type SearchResponse = {
@@ -45,6 +50,9 @@ declare type ItemResponse = {
     secure_thumbnail: string,
     shipping: {
       free_shipping: boolean
+    },
+    address: {
+        state_name: string,
     }
 }
 
@@ -75,6 +83,7 @@ declare type HydratedSearchItem = {
     picture: string,
     condition: string,
     free_shipping: boolean,
+    place: string,
 }
 
 declare type HydratedSearchResponse = {
@@ -98,4 +107,5 @@ declare type ProductItem = {
     free_shipping: boolean,
     description: string,
     sold_quantity: number,
+    place: string,
 }
