@@ -13,6 +13,7 @@ export default function CategoriesList ({ categories }: CategoriesListProps ): J
             <style jsx>{`
                 p {
                     margin: 14px 0;
+                    color: var(--fade-color)
                 }
             `}</style>
         </>
