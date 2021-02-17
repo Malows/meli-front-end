@@ -28,9 +28,10 @@ export function hydrateSearch (item: SearchResultItem): HydratedSearchItem {
         id: item.id,
         title: item.title,
         condition: item.condition,
-        free_shipping: item.free_shipping,
+        free_shipping: item.shipping.free_shipping,
         price: priceFormatter(item),
-        picture: item.thumbnail.replace('http:', 'https:')
+        picture: item.thumbnail.replace('http:', 'https:'),
+        place: item.address.state_name,
     }
 }
 
@@ -76,6 +77,7 @@ export async function fetchItem (id: string): Promise<{ author: Author, item: Pr
             free_shipping: item.shipping.free_shipping,
             condition: item.condition,
             sold_quantity: item.sold_quantity,
+            place: item.address.state_name,
         }
     }
 }
