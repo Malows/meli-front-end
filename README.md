@@ -36,7 +36,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 Set up the container:
 
 ```bash
-docker-composer up
+docker-compose up
 ```
 
 The you can go to [http://localhost:3000](http://localhost:3000) as in dev mode.
