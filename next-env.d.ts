@@ -51,9 +51,11 @@ declare type ItemResponse = {
     shipping: {
       free_shipping: boolean
     },
-    address: {
-        state_name: string,
-    }
+    seller_address: {
+        state: {
+            name: string,
+        },
+    },
 }
 
 declare type ItemDescriptionResponse = {
@@ -101,6 +103,7 @@ declare type HydratedSearchResponse = {
 declare type ProductItem = {
     id: string,
     title: string,
+    categories: string[],
     price: Price,
     condition: string,
     picture: string,
