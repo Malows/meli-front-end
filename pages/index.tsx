@@ -5,7 +5,7 @@ import { useSearchState } from '../context'
 
 import Container from '../components/layout/Container'
 import CategoriesList from '../components/CategoriesList'
-import SearchItem from '../components/SearchItem'
+import SearchItem from '../components/search/SearchItem'
 
 export default function Index (): JSX.Element {
     useEffect(() => {
@@ -19,7 +19,7 @@ export default function Index (): JSX.Element {
     return (
         <>
             <Head>
-                <title>Create Next App</title>
+                <title>Nunca dejes de buscar</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
