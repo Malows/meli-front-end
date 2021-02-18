@@ -1,19 +1,13 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
+import SearchData from './SearchData'
+
 type SearchItemProps = {
     item: HydratedSearchItem
 }
 
 export default function SearchItem ({ item }: SearchItemProps): JSX.Element {
-    const shipping = item.free_shipping
-        ? (
-            <div className="product-item__shipping">
-                <Image src="/ic_shipping.png" width={20} height={20} layout="fixed" />
-            </div>
-        )
-        : null
-
     return (
         <>
             <Link href={`/items/${item.id}`}>
@@ -24,11 +18,7 @@ export default function SearchItem ({ item }: SearchItemProps): JSX.Element {
                         </div>
 
                         <div className="product-item__data">
-                            <div className="product-item__price">
-                                <p>{item.price.currency} {item.price.amount}</p>
-                                {shipping}
-                            </div>
-                            <div className="product-item__title">{item.title}</div>
+                            <SearchData {...item} />
                         </div>
 
                         <div className="product-item__place">{item.place}</div>
@@ -51,22 +41,6 @@ export default function SearchItem ({ item }: SearchItemProps): JSX.Element {
 
                 .product-item__data {
                     grid-area: data;
-                }
-
-                .product-item__price {
-                    margin: 1rem 0 2rem;
-                    display: flex;
-                    gap: 1rem;
-                    align-items: center;
-                    font-size: 24px;
-                }
-
-                .product-item__shipping {
-                    padding: 2rem 1rem;
-                }
-
-                .product-item__title {
-                    font-size: 18px;
                 }
 
                 .product-item__place {
