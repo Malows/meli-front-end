@@ -66,6 +66,8 @@ export async function fetchItem (id: string): Promise<{ author: Author, item: Pr
 
     const { plain_text: description } = await getItemDescription(id)
 
+    const categories = await getCategories(item.category_id) || []
+
     return {
         author: { name: '', lastname: '' }, // TODO
         item: {
@@ -77,7 +79,8 @@ export async function fetchItem (id: string): Promise<{ author: Author, item: Pr
             free_shipping: item.shipping.free_shipping,
             condition: item.condition,
             sold_quantity: item.sold_quantity,
-            place: item.address.state_name,
+            place: item.seller_address.state.name,
+            categories,
         }
     }
 }
