@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product Component renders without categories 1`] = `
+<DocumentFragment>
+  <div
+    class="jsx-3519177415 product"
+  >
+    <div
+      class="jsx-3519177415 product__image"
+    >
+      <div
+        style="display: inline-block; max-width: 100%; overflow: hidden; position: relative; box-sizing: border-box; margin: 0px;"
+      >
+        <div
+          style="box-sizing: border-box; display: block; max-width: 100%;"
+        >
+          <img
+            alt=""
+            aria-hidden="true"
+            role="presentation"
+            src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjgwIiBoZWlnaHQ9IjY4MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+            style="max-width: 100%; display: block; margin: 0px; padding: 0px;"
+          />
+        </div>
+        <img
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style="visibility: hidden; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+        />
+      </div>
+    </div>
+    <div
+      class="jsx-3519177415 product__data"
+    >
+      <p
+        class="jsx-3896751209"
+      >
+        Nuevo - 2 vendidos
+      </p>
+      <h3
+        class="jsx-3896751209"
+      >
+        title
+      </h3>
+      <h2
+        class="jsx-3896751209"
+      >
+        $ 12.345
+      </h2>
+      <button
+        class="jsx-3896751209 rounded"
+      >
+        Comprar
+      </button>
+    </div>
+    <div
+      class="jsx-3519177415 product__descritpion"
+    >
+      <h4
+        class="jsx-1641805919"
+      >
+        Descripción del producto
+      </h4>
+      <p
+        class="jsx-1641805919"
+      >
+        desc
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
