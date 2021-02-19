@@ -1,0 +1,739 @@
+{
+    "id": "MLA907313191",
+    "site_id": "MLA",
+    "title": "iPad Apple 8ª Generación 2020 A2270 10.2  32gb Silver Con Memoria Ram 3gb ",
+    "subtitle": null,
+    "seller_id": 47334182,
+    "category_id": "MLA82085",
+    "official_store_id": null,
+    "price": 53999,
+    "base_price": 53999,
+    "original_price": null,
+    "currency_id": "ARS",
+    "initial_quantity": 16,
+    "available_quantity": 1,
+    "sold_quantity": 5,
+    "sale_terms": [
+      {
+        "id": "WARRANTY_TYPE",
+        "name": "Tipo de garantía",
+        "value_id": "2230279",
+        "value_name": "Garantía de fábrica",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "2230279",
+            "name": "Garantía de fábrica",
+            "struct": null
+          }
+        ]
+      },
+      {
+        "id": "WARRANTY_TIME",
+        "name": "Tiempo de garantía",
+        "value_id": null,
+        "value_name": "1 años",
+        "value_struct": {
+          "number": 1,
+          "unit": "años"
+        },
+        "values": [
+          {
+            "id": null,
+            "name": "1 años",
+            "struct": {
+              "number": 1,
+              "unit": "años"
+            }
+          }
+        ]
+      },
+      {
+        "id": "INVOICE",
+        "name": "Facturación",
+        "value_id": "6891885",
+        "value_name": "Factura A",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "6891885",
+            "name": "Factura A",
+            "struct": null
+          }
+        ]
+      }
+    ],
+    "buying_mode": "buy_it_now",
+    "listing_type_id": "gold_special",
+    "start_time": "2021-02-05T20:14:06.000Z",
+    "stop_time": "2041-01-31T04:00:00.000Z",
+    "condition": "new",
+    "permalink": "https://articulo.mercadolibre.com.ar/MLA-907313191-ipad-apple-8-generacion-2020-a2270-102-32gb-silver-con-memoria-ram-3gb-_JM",
+    "thumbnail_id": "971577-MLA44099619331_112020",
+    "thumbnail": "http://http2.mlstatic.com/D_971577-MLA44099619331_112020-I.jpg",
+    "secure_thumbnail": "https://http2.mlstatic.com/D_971577-MLA44099619331_112020-I.jpg",
+    "pictures": [
+      {
+        "id": "971577-MLA44099619331_112020",
+        "url": "http://http2.mlstatic.com/D_971577-MLA44099619331_112020-O.jpg",
+        "secure_url": "https://http2.mlstatic.com/D_971577-MLA44099619331_112020-O.jpg",
+        "size": "332x500",
+        "max_size": "731x1100",
+        "quality": ""
+      }
+    ],
+    "video_id": "uBxaDpdEmNQ",
+    "descriptions": [
+      {
+        "id": "MLA907313191-3220030983"
+      }
+    ],
+    "accepts_mercadopago": true,
+    "non_mercado_pago_payment_methods": [],
+    "shipping": {
+      "mode": "me2",
+      "free_methods": [
+        {
+          "id": 73328,
+          "rule": {
+            "default": true,
+            "free_mode": "country",
+            "free_shipping_flag": true,
+            "value": null
+          }
+        }
+      ],
+      "tags": [
+        "self_service_in",
+        "mandatory_free_shipping"
+      ],
+      "dimensions": null,
+      "local_pick_up": true,
+      "free_shipping": true,
+      "logistic_type": "xd_drop_off",
+      "store_pick_up": false
+    },
+    "international_delivery_mode": "none",
+    "seller_address": {
+      "city": {
+        "name": "Olivos"
+      },
+      "state": {
+        "id": "AR-B",
+        "name": "Buenos Aires"
+      },
+      "country": {
+        "id": "AR",
+        "name": "Argentina"
+      },
+      "search_location": {
+        "neighborhood": {
+          "id": "TUxBQk9MSTgzODNa",
+          "name": "Olivos"
+        },
+        "city": {
+          "id": "TUxBQ1ZJQ2E3MTQz",
+          "name": "Vicente López"
+        },
+        "state": {
+          "id": "TUxBUEdSQWU4ZDkz",
+          "name": "Bs.As. G.B.A. Norte"
+        }
+      },
+      "id": 1110511911
+    },
+    "seller_contact": null,
+    "location": {},
+    "coverage_areas": [],
+    "attributes": [
+      {
+        "id": "ACCESSORIES_INCLUDED",
+        "name": "Accesorios incluidos",
+        "value_id": null,
+        "value_name": "Adaptador USB-C,Cable lightning a USB-C",
+        "value_struct": null,
+        "values": [
+          {
+            "id": null,
+            "name": "Adaptador USB-C",
+            "struct": null
+          },
+          {
+            "id": null,
+            "name": "Cable lightning a USB-C",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "ALPHANUMERIC_MODEL",
+        "name": "Modelo alfanumérico",
+        "value_id": "9158764",
+        "value_name": "A2270",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "9158764",
+            "name": "A2270",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "BRAND",
+        "name": "Marca",
+        "value_id": "9344",
+        "value_name": "Apple",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "9344",
+            "name": "Apple",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "CAPACITY",
+        "name": "Capacidad",
+        "value_id": "18621",
+        "value_name": "32 GB",
+        "value_struct": {
+          "number": 32,
+          "unit": "GB"
+        },
+        "values": [
+          {
+            "id": "18621",
+            "name": "32 GB",
+            "struct": {
+              "number": 32,
+              "unit": "GB"
+            }
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "COLOR",
+        "name": "Color",
+        "value_id": "2723554",
+        "value_name": "Silver",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "2723554",
+            "name": "Silver",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "CONNECTIVITY",
+        "name": "Conectividad",
+        "value_id": null,
+        "value_name": "Bluetooth,Wi-Fi,Lightning connector,Smart connector,MIMO",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "81950",
+            "name": "Bluetooth",
+            "struct": null
+          },
+          {
+            "id": "2511537",
+            "name": "Wi-Fi",
+            "struct": null
+          },
+          {
+            "id": null,
+            "name": "Lightning connector",
+            "struct": null
+          },
+          {
+            "id": null,
+            "name": "Smart connector",
+            "struct": null
+          },
+          {
+            "id": null,
+            "name": "MIMO",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "DISPLAY_SIZE",
+        "name": "Tamaño de la pantalla",
+        "value_id": "8609388",
+        "value_name": "10.2 \"",
+        "value_struct": {
+          "number": 10.2,
+          "unit": "\""
+        },
+        "values": [
+          {
+            "id": "8609388",
+            "name": "10.2 \"",
+            "struct": {
+              "number": 10.2,
+              "unit": "\""
+            }
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "GRAPHICS_PROCESSOR",
+        "name": "Procesador gráfico",
+        "value_id": "9216020",
+        "value_name": "Quad-Core",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "9216020",
+            "name": "Quad-Core",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "GTIN",
+        "name": "Código universal de producto",
+        "value_id": null,
+        "value_name": "190199807358",
+        "value_struct": null,
+        "values": [
+          {
+            "id": null,
+            "name": "190199807358",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "IS_MULTI_TOUCH",
+        "name": "Es multi-touch",
+        "value_id": "242085",
+        "value_name": "Sí",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "242085",
+            "name": "Sí",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "ITEM_CONDITION",
+        "name": "Condición del ítem",
+        "value_id": "2230284",
+        "value_name": "Nuevo",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "2230284",
+            "name": "Nuevo",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "LINE",
+        "name": "Línea",
+        "value_id": "107662",
+        "value_name": "iPad",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "107662",
+            "name": "iPad",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "MAIN_COLOR",
+        "name": "Color principal",
+        "value_id": "2450294",
+        "value_name": "Gris",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "2450294",
+            "name": "Gris",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "MAX_SCREEN_RESOLUTION",
+        "name": "Máxima resolución de pantalla",
+        "value_id": "8609382",
+        "value_name": "2160 px x 1620 px",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "8609382",
+            "name": "2160 px x 1620 px",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "MEMORY_RAM",
+        "name": "Memoria RAM",
+        "value_id": "159293",
+        "value_name": "3 GB",
+        "value_struct": {
+          "number": 3,
+          "unit": "GB"
+        },
+        "values": [
+          {
+            "id": "159293",
+            "name": "3 GB",
+            "struct": {
+              "number": 3,
+              "unit": "GB"
+            }
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "MODEL",
+        "name": "Modelo",
+        "value_id": "9158766",
+        "value_name": "8ª Generación",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "9158766",
+            "name": "8ª Generación",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "OS_NAME",
+        "name": "Nombre del sistema operativo",
+        "value_id": "8999471",
+        "value_name": "iPadOS",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "8999471",
+            "name": "iPadOS",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "OS_VERSION",
+        "name": "Versión del sistema operativo",
+        "value_id": "9094175",
+        "value_name": "14",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "9094175",
+            "name": "14",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "PIXELS_PER_INCH",
+        "name": "Píxeles por pulgada",
+        "value_id": "7749453",
+        "value_name": "264 ppi",
+        "value_struct": {
+          "number": 264,
+          "unit": "ppi"
+        },
+        "values": [
+          {
+            "id": "7749453",
+            "name": "264 ppi",
+            "struct": {
+              "number": 264,
+              "unit": "ppi"
+            }
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "PROCESSOR_SPEED",
+        "name": "Velocidad del procesador",
+        "value_id": "365850",
+        "value_name": "2.5 GHz",
+        "value_struct": {
+          "number": 2.5,
+          "unit": "GHz"
+        },
+        "values": [
+          {
+            "id": "365850",
+            "name": "2.5 GHz",
+            "struct": {
+              "number": 2.5,
+              "unit": "GHz"
+            }
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "RESOLUTION_OF_FRONT_CAMERA",
+        "name": "Resolución de la cámara delantera",
+        "value_id": "902404",
+        "value_name": "1.2 Mpx",
+        "value_struct": {
+          "number": 1.2,
+          "unit": "Mpx"
+        },
+        "values": [
+          {
+            "id": "902404",
+            "name": "1.2 Mpx",
+            "struct": {
+              "number": 1.2,
+              "unit": "Mpx"
+            }
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "RESOLUTION_REAR_CAMERAS",
+        "name": "Resolución de las cámaras traseras",
+        "value_id": "902414",
+        "value_name": "8 Mpx",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "902414",
+            "name": "8 Mpx",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "SENSORS",
+        "name": "Sensores",
+        "value_id": null,
+        "value_name": "Acelerómetro,Barómetro,Giroscopio,Sensor de luz ambiente,Touch ID",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "82823",
+            "name": "Acelerómetro",
+            "struct": null
+          },
+          {
+            "id": null,
+            "name": "Barómetro",
+            "struct": null
+          },
+          {
+            "id": "82820",
+            "name": "Giroscopio",
+            "struct": null
+          },
+          {
+            "id": "82817",
+            "name": "Sensor de luz ambiente",
+            "struct": null
+          },
+          {
+            "id": null,
+            "name": "Touch ID",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "TABLET_CHIPSET",
+        "name": "Chipset",
+        "value_id": "7991361",
+        "value_name": "Apple A12 Bionic",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "7991361",
+            "name": "Apple A12 Bionic",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "VERSION",
+        "name": "Versión",
+        "value_id": "8639959",
+        "value_name": "2020",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "8639959",
+            "name": "2020",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "VIDEO_RESOLUTION",
+        "name": "Resolución de video",
+        "value_id": "5056191",
+        "value_name": "4K",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "5056191",
+            "name": "4K",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "WEIGHT",
+        "name": "Peso",
+        "value_id": "1443",
+        "value_name": "490 g",
+        "value_struct": {
+          "number": 490,
+          "unit": "g"
+        },
+        "values": [
+          {
+            "id": "1443",
+            "name": "490 g",
+            "struct": {
+              "number": 490,
+              "unit": "g"
+            }
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "WITH_CELLPHONE_CONNECTIVITY",
+        "name": "Con conexión celular",
+        "value_id": "242084",
+        "value_name": "No",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "242084",
+            "name": "No",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "WITH_HEADPHONES_OUTPUT",
+        "name": "Con salida para auriculares",
+        "value_id": "242085",
+        "value_name": "Sí",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "242085",
+            "name": "Sí",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      },
+      {
+        "id": "WITH_MICROPHONE",
+        "name": "Con micrófono",
+        "value_id": "242085",
+        "value_name": "Sí",
+        "value_struct": null,
+        "values": [
+          {
+            "id": "242085",
+            "name": "Sí",
+            "struct": null
+          }
+        ],
+        "attribute_group_id": "OTHERS",
+        "attribute_group_name": "Otros"
+      }
+    ],
+    "warnings": [],
+    "listing_source": "",
+    "variations": [],
+    "status": "active",
+    "sub_status": [],
+    "tags": [
+      "good_quality_picture",
+      "loyalty_discount_eligible",
+      "immediate_payment",
+      "cart_eligible"
+    ],
+    "warranty": "Garantía de fábrica: 1 años",
+    "catalog_product_id": "MLA16222630",
+    "domain_id": "MLA-TABLETS",
+    "parent_item_id": null,
+    "differential_pricing": null,
+    "deal_ids": [],
+    "automatic_relist": false,
+    "date_created": "2021-02-05T20:14:07.000Z",
+    "last_updated": "2021-02-16T03:18:12.046Z",
+    "health": null,
+    "catalog_listing": true
+  }

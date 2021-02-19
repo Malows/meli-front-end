@@ -1,0 +1,502 @@
+{
+    "site_id": "MLA",
+    "query": "ipad",
+    "paging": {
+      "total": 1203,
+      "primary_results": 1000,
+      "offset": 0,
+      "limit": 1
+    },
+    "results": [],
+    "secondary_results": [],
+    "related_results": [],
+    "sort": {
+      "id": "relevance",
+      "name": "Más relevantes"
+    },
+    "available_sorts": [
+      {
+        "id": "price_asc",
+        "name": "Menor precio"
+      },
+      {
+        "id": "price_desc",
+        "name": "Mayor precio"
+      }
+    ],
+    "filters": [
+      {
+        "id": "category",
+        "name": "Categorías",
+        "type": "text",
+        "values": [
+          {
+            "id": "MLA82085",
+            "name": "Tablets",
+            "path_from_root": [
+              {
+                "id": "MLA1648",
+                "name": "Computación"
+              },
+              {
+                "id": "MLA400950",
+                "name": "Tablets y Accesorios"
+              },
+              {
+                "id": "MLA82085",
+                "name": "Tablets"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "LINE",
+        "name": "Línea",
+        "type": "STRING",
+        "values": [
+          {
+            "id": "107662",
+            "name": "iPad"
+          }
+        ]
+      },
+      {
+        "id": "BRAND",
+        "name": "Marca",
+        "type": "STRING",
+        "values": [
+          {
+            "id": "9344",
+            "name": "Apple"
+          }
+        ]
+      }
+    ],
+    "available_filters": [
+      {
+        "id": "official_store",
+        "name": "Tiendas oficiales",
+        "type": "text",
+        "values": [
+          {
+            "id": "all",
+            "name": "Todas las tiendas oficiales",
+            "results": 3
+          },
+          {
+            "id": "1938",
+            "name": "Mercado Libre Electronica",
+            "results": 3
+          }
+        ]
+      },
+      {
+        "id": "discount",
+        "name": "Descuentos",
+        "type": "range",
+        "values": [
+          {
+            "id": "5-100",
+            "name": "Desde 5% OFF",
+            "results": 3
+          },
+          {
+            "id": "25-100",
+            "name": "Desde 25% OFF",
+            "results": 1
+          }
+        ]
+      },
+      {
+        "id": "state",
+        "name": "Ubicación",
+        "type": "text",
+        "values": [
+          {
+            "id": "TUxBUENBUGw3M2E1",
+            "name": "Capital Federal",
+            "results": 577
+          },
+          {
+            "id": "TUxBUEdSQWU4ZDkz",
+            "name": "Bs.As. G.B.A. Norte",
+            "results": 127
+          },
+          {
+            "id": "TUxBUEdSQXJlMDNm",
+            "name": "Bs.As. G.B.A. Sur",
+            "results": 115
+          },
+          {
+            "id": "TUxBUEdSQWVmNTVm",
+            "name": "Bs.As. G.B.A. Oeste",
+            "results": 108
+          },
+          {
+            "id": "TUxBUENPUmFkZGIw",
+            "name": "Córdoba",
+            "results": 60
+          },
+          {
+            "id": "TUxBUFNBTmU5Nzk2",
+            "name": "Santa Fe",
+            "results": 38
+          },
+          {
+            "id": "TUxBUFpPTmFpbnRl",
+            "name": "Buenos Aires Interior",
+            "results": 31
+          },
+          {
+            "id": "TUxBUE1FTmE5OWQ4",
+            "name": "Mendoza",
+            "results": 13
+          },
+          {
+            "id": "TUxBUFRVQ244NmM3",
+            "name": "Tucumán",
+            "results": 13
+          },
+          {
+            "id": "TUxBUENPU2ExMmFkMw",
+            "name": "Bs.As. Costa Atlántica",
+            "results": 11
+          },
+          {
+            "id": "TUxBUE1JU3MzNjIx",
+            "name": "Misiones",
+            "results": 6
+          },
+          {
+            "id": "TUxBUFLNT29iZmZm",
+            "name": "Río Negro",
+            "results": 5
+          },
+          {
+            "id": "TUxBUFNBTGFjMTJi",
+            "name": "Salta",
+            "results": 5
+          },
+          {
+            "id": "TUxBUE5FVW4xMzMzNQ",
+            "name": "Neuquén",
+            "results": 4
+          },
+          {
+            "id": "TUxBUENIQW8xMTNhOA",
+            "name": "Chaco",
+            "results": 4
+          },
+          {
+            "id": "TUxBUENIVXQxNDM1MQ",
+            "name": "Chubut",
+            "results": 3
+          },
+          {
+            "id": "TUxBUEVOVHMzNTdm",
+            "name": "Entre Ríos",
+            "results": 3
+          },
+          {
+            "id": "TUxBUFNBTm5lYjU4",
+            "name": "San Juan",
+            "results": 3
+          },
+          {
+            "id": "TUxBUFNBTnM0ZTcz",
+            "name": "San Luis",
+            "results": 3
+          },
+          {
+            "id": "TUxBUENPUnM5MjI0",
+            "name": "Corrientes",
+            "results": 2
+          },
+          {
+            "id": "TUxBUExBWmE1OWMy",
+            "name": "La Pampa",
+            "results": 2
+          },
+          {
+            "id": "TUxBUFNBTm9lOTlk",
+            "name": "Santiago del Estero",
+            "results": 2
+          },
+          {
+            "id": "TUxBUFNBTno3ZmY5",
+            "name": "Santa Cruz",
+            "results": 2
+          },
+          {
+            "id": "TUxBUEZPUmE1OTk5",
+            "name": "Formosa",
+            "results": 1
+          },
+          {
+            "id": "TUxBUEpVSnk3YmUz",
+            "name": "Jujuy",
+            "results": 1
+          }
+        ]
+      },
+      {
+        "id": "price",
+        "name": "Precio",
+        "type": "range",
+        "values": [
+          {
+            "id": "*-20000.0",
+            "name": "Hasta $ 20.000",
+            "results": 348
+          },
+          {
+            "id": "20000.0-55000.0",
+            "name": "$20.000 a $55.000",
+            "results": 437
+          },
+          {
+            "id": "55000.0-*",
+            "name": "Más de $55.000",
+            "results": 399
+          }
+        ]
+      },
+      {
+        "id": "accepts_mercadopago",
+        "name": "Filtro por MercadoPago",
+        "type": "boolean",
+        "values": [
+          {
+            "id": "yes",
+            "name": "Con MercadoPago",
+            "results": 1184
+          }
+        ]
+      },
+      {
+        "id": "installments",
+        "name": "Pago",
+        "type": "text",
+        "values": [
+          {
+            "id": "yes",
+            "name": "En cuotas",
+            "results": 1166
+          },
+          {
+            "id": "no_interest",
+            "name": "Sin interés",
+            "results": 131
+          }
+        ]
+      },
+      {
+        "id": "shipping",
+        "name": "Tipo de entrega",
+        "type": "text",
+        "values": [
+          {
+            "id": "mercadoenvios",
+            "name": "Con envío",
+            "results": 1182
+          },
+          {
+            "id": "fulfillment",
+            "name": "Full",
+            "results": 11
+          }
+        ]
+      },
+      {
+        "id": "power_seller",
+        "name": "Filtro por calidad de vendedores",
+        "type": "boolean",
+        "values": [
+          {
+            "id": "yes",
+            "name": "Mejores vendedores",
+            "results": 122
+          }
+        ]
+      },
+      {
+        "id": "since",
+        "name": "Filtro por fecha de comienzo",
+        "type": "text",
+        "values": [
+          {
+            "id": "today",
+            "name": "Publicados hoy",
+            "results": 11
+          }
+        ]
+      },
+      {
+        "id": "until",
+        "name": "Filtro por fecha de finalización",
+        "type": "text",
+        "values": [
+          {
+            "id": "today",
+            "name": "Finalizan hoy",
+            "results": 7
+          }
+        ]
+      },
+      {
+        "id": "has_video",
+        "name": "Filtro por publicaciones con video",
+        "type": "boolean",
+        "values": [
+          {
+            "id": "yes",
+            "name": "Publicaciones con video",
+            "results": 22
+          }
+        ]
+      },
+      {
+        "id": "has_pictures",
+        "name": "Filtro por publicaciones con imágenes",
+        "type": "boolean",
+        "values": [
+          {
+            "id": "yes",
+            "name": "Con fotos",
+            "results": 1184
+          }
+        ]
+      },
+      {
+        "id": "price_campaign_id",
+        "name": "Campaña",
+        "type": "number",
+        "values": [
+          {
+            "id": "MLA5455",
+            "name": "MLA5455",
+            "results": 2
+          }
+        ]
+      },
+      {
+        "id": "shipping_cost",
+        "name": "Costo de envío",
+        "type": "text",
+        "values": [
+          {
+            "id": "free",
+            "name": "Gratis",
+            "results": 651
+          }
+        ]
+      },
+      {
+        "id": "CAPACITY",
+        "name": "Capacidad",
+        "type": "range",
+        "values": [
+          {
+            "id": "(*-32GB)",
+            "name": "Menos de 32 GB",
+            "results": 387
+          },
+          {
+            "id": "[32GB-64GB)",
+            "name": "32 a 63 GB",
+            "results": 424
+          },
+          {
+            "id": "[64GB-128GB)",
+            "name": "64 a 127 GB",
+            "results": 161
+          },
+          {
+            "id": "[128GB-*)",
+            "name": "128 GB o más",
+            "results": 190
+          }
+        ]
+      },
+      {
+        "id": "ITEM_CONDITION",
+        "name": "Condición",
+        "type": "STRING",
+        "values": [
+          {
+            "id": "2230581",
+            "name": "Usado",
+            "results": 906
+          },
+          {
+            "id": "2230284",
+            "name": "Nuevo",
+            "results": 269
+          },
+          {
+            "id": "2230582",
+            "name": "Reacondicionado",
+            "results": 8
+          }
+        ]
+      },
+      {
+        "id": "MODEL",
+        "name": "Modelo",
+        "type": "STRING",
+        "values": [
+          {
+            "id": "7654885",
+            "name": "2ª Generación",
+            "results": 324
+          },
+          {
+            "id": "7709674",
+            "name": "3ª Generación",
+            "results": 143
+          },
+          {
+            "id": "7783588",
+            "name": "4ª Generación",
+            "results": 122
+          },
+          {
+            "id": "7644319",
+            "name": "5ª Generación",
+            "results": 106
+          },
+          {
+            "id": "9158766",
+            "name": "8ª Generación",
+            "results": 94
+          },
+          {
+            "id": "8639675",
+            "name": "7ª Generación",
+            "results": 87
+          },
+          {
+            "id": "7777380",
+            "name": "6ª Generación",
+            "results": 82
+          },
+          {
+            "id": "7647079",
+            "name": "1ª Generación",
+            "results": 70
+          },
+          {
+            "id": "58615",
+            "name": "5",
+            "results": 1
+          },
+          {
+            "id": "49506",
+            "name": "3",
+            "results": 1
+          }
+        ]
+      }
+    ]
+  }

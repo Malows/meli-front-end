@@ -66,7 +66,7 @@ export async function fetchItem (id: string): Promise<{ author: Author, item: Pr
 
     const { plain_text: description } = await getItemDescription(id)
 
-    const categories = await getCategories(item.category_id) || []
+    const categories = await getCategories(item.category_id)
 
     return {
         author: { name: '', lastname: '' }, // TODO

@@ -37,7 +37,7 @@ export async function getCategories (id: string) : Promise<string[]> {
     const res = await fetch(url)
     const data = await res.json()
 
-    return data?.path_from_root.map((x: { name: string }) => x.name) ?? []
+    return data?.path_from_root?.map((x: { name: string }) => x.name) ?? []
 }
 
 /**
